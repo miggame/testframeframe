@@ -1,0 +1,29 @@
+  export class RegisterComponent {
+    public static AIComponent:string = "game.component.AIComponent";
+    public static AISearchComponent:string = "game.component.AISearchComponent";
+    public static CampComponent:string = "game.component.CampComponent";
+    public static EnemyComponent:string = "game.component.EnemyComponent";
+    public static IsDeadComponent:string = "game.component.IsDeadComponent";
+    public static DestroyComponent:string = "game.component.DestroyComponent";
+    public static IsMainComponent:string = "game.component.IsMainComponent";
+    public static MoveSpeedComponent:string = "game.component.MoveSpeedComponent";
+    public static PostionComponent:string = "game.component.PostionComponent";
+    public static MovePostionComponent:string = "game.component.MovePostionComponent";
+    public static MoveDirComponent:string = "game.component.MoveDirComponent";
+    public static AABBComponent:string = "game.component.AABBComponent";
+    public static PathingComponent:string = "game.component.PathingComponent";
+    public static HPComponent:string = "game.component.HPComponent";
+    public static NpcIDComponent:string = "game.component.NpcIDComponent";
+    public static typeIDComponent:string = "game.component.typeIDComponent";
+    public static CurCastSkillComponent:string = "game.component.CurCastSkillComponent";
+    public static SkillComponent:string = "game.component.SkillComponent";
+    public static BaseAttrComponent:string = "game.component.BaseAttrComponent";
+    public static LevelComponent:string = "game.component.LevelComponent";
+    public static lifeComponent:string = "game.component.lifeComponent";
+    public static PropAttrListComponent:string = "game.component.PropAttrListComponent";
+    public static BuffAttrListComponent:string = "game.component.BuffAttrListComponent";
+    public static CDListComponent:string = "game.component.CDListComponent";
+    public static SpecialStateListComponent:string = "game.component.SpecialStateListComponent";
+    public static AnimationComponent:string = "game.component.AnimationComponent";
+    public static SpriteRenderComponent:string = "game.component.SpriteRenderComponent";
+  }

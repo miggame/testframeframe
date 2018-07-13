@@ -1,0 +1,115 @@
+{
+  "namespace": "example",
+  "src": "src",
+  "debug": false,
+  "output": {
+    "typescript": "assets/Script/game/entity/component"
+  },
+  "components": {
+    "AI": [
+      "state:AIFsmManager",
+      "aiState:Array<string>",
+      "curState:string"
+    ],
+    "AISearch": [
+      "radius:number"
+    ],
+    "Camp": [
+      "Camp:number"
+    ],
+    "Enemy": [
+      "enemyID:number"
+    ],
+    "IsDead": [
+      "isDead:boolean",
+      "hpDead:boolean"
+    ],
+    "Destroy": [
+      "isNeedDestroy:boolean",
+      "isDestroy:boolean",
+      "lastTime:number"
+    ],
+    "IsMain": [
+      "isMain:boolean"
+    ],
+    "MoveSpeed": [
+      "speed:number"
+    ],
+    "Postion": [
+      "x:number",
+      "y:number"
+    ],
+    "MovePostion": [
+      "x:number",
+      "y:number"
+    ],
+    "MoveDir": [
+      "x:number",
+      "y:number"
+    ],
+    "AABB": [
+      "x:number",
+      "y:number",
+      "w:number",
+      "h:number"
+    ],
+    "Pathing": [
+      "x:number",
+      "y:number",
+      "isfinish:boolean"
+    ],
+    "HP": [
+      "curHP:number"
+    ],
+    "NpcID": [
+      "npcID:number",
+      "cardID:number"
+    ],
+    "typeID": [
+      "typeID:number"
+    ],
+    "CurCastSkill": [
+      "skillID:number",
+      "curErr:number",
+      "isAttack:number",
+      "skillDelay:number",
+      "skillLevel:number",
+      "skillInstanceID:number",
+      "enemy:Array<number>"
+    ],
+    "Skill": [
+      "skillList:Array<UserSkill>"
+    ],
+    "BaseAttr": [
+      "baseAttr:number"
+    ],
+    "Level": [
+      "level:number"
+    ],
+    "life": [
+      "lastTime:number"
+    ],
+    "PropAttrList": [
+      "propAttrList:Array<number>"
+    ],
+    "BuffAttrList": [
+      "buffAttrList:Array<ImpactData>"
+    ],
+    "CDList": [
+      "CDList:Array<CDData>"
+    ],
+    "SpecialStateList": [
+      "list:Array<number>"
+    ],
+    "Animation": [
+      "curAnim:string",
+      "readyAnim:string",
+      "waitAnim:string",
+      "loop:boolean"
+    ],
+    "SpriteRender": [
+      "r:viewObject",
+      "resName:string"
+    ]
+  }
+}

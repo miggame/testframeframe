@@ -1,0 +1,52 @@
+[
+    {
+        "attr": 1,
+        "fun_name": "最大生命",
+        "percent_attr": 5
+    },
+    {
+        "attr": 2,
+        "fun_name": "攻击",
+        "percent_attr": 6
+    },
+    {
+        "attr": 3,
+        "fun_name": "防御",
+        "percent_attr": 7
+    },
+    {
+        "attr": 4,
+        "fun_name": "移动速度",
+        "percent_attr": 8
+    },
+    {
+        "attr": 5,
+        "fun_name": "最大生命百分比",
+        "percent_attr": 0
+    },
+    {
+        "attr": 6,
+        "fun_name": "攻击百分比",
+        "percent_attr": 0
+    },
+    {
+        "attr": 7,
+        "fun_name": "防御百分比",
+        "percent_attr": 0
+    },
+    {
+        "attr": 8,
+        "fun_name": "移动速度百分比",
+        "percent_attr": 0
+    },
+    {
+        "attr": 100,
+        "fun_name": "攻速备注",
+        "percent_attr": 0
+    },
+    {
+        "attr": 101,
+        "fun_name": "射程备注",
+        "percent_attr": 0
+    }
+]
